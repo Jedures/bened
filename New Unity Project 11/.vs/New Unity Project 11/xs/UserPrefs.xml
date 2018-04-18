@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{BBFB2055-255D-782B-5FF7-D79797C3BE23}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/_Scripts/Loading.cs">
+    <Files>
+      <File FileName="Assets/Invector-3rdPersonController/Basic Locomotion LITE/Scripts/CharacterController/vThirdPersonController.cs" Line="23" Column="14" />
+      <File FileName="Assets/Invector-3rdPersonController/Basic Locomotion LITE/Scripts/CharacterController/vThirdPersonAnimator.cs" Line="7" Column="6" />
+      <File FileName="Assets/Invector-3rdPersonController/Basic Locomotion LITE/Scripts/CharacterController/vThirdPersonMotor.cs" Line="9" Column="2" />
+      <File FileName="Assets/_Scripts/DamageObject.cs" Line="20" Column="29" />
+      <File FileName="Assets/_Scripts/GameManager.cs" Line="27" Column="47" />
+      <File FileName="Assets/_Scripts/UIController.cs" Line="18" Column="46" />
+      <File FileName="Assets/_Scripts/Loading.cs" Line="43" Column="45" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.New_220Unity_220Project_22011 PreferredExecutionTarget="Unity.Editor" />
+</Properties>
