@@ -64,7 +64,7 @@ namespace Invector.CharacterController
         protected virtual void FixedUpdate()
         {
             cc.AirControl();
-            CameraInput();
+          //  CameraInput();
         }
 
         protected virtual void Update()
@@ -76,7 +76,7 @@ namespace Invector.CharacterController
         protected virtual void InputHandle()
         {
             ExitGameInput();
-            CameraInput();
+         //   CameraInput();
 
             if (!cc.lockMovement)
             {
@@ -136,14 +136,14 @@ namespace Invector.CharacterController
             if (tpCamera == null)
                 return;
 
-            Vector2 dir;
-            dir.y = CameraJoystick.GetVertical();
-            dir.x = CameraJoystick.GetHorizontal();
+           Vector2 dir;
+           dir.y = CameraJoystick.GetVertical();
+           dir.x = CameraJoystick.GetHorizontal();
 
-            if (dir.magnitude > 1)
-                dir.Normalize();
+          if (dir.magnitude > 1)
+              dir.Normalize();
 
-            tpCamera.RotateCamera(dir.x, dir.y);
+           tpCamera.RotateCamera(dir.x, dir.y);
 
             // tranform Character direction from camera if not KeepDirection
             if (!keepDirection)
