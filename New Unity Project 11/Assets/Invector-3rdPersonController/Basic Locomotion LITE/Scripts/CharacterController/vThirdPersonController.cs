@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 namespace Invector.CharacterController
@@ -6,6 +7,7 @@ namespace Invector.CharacterController
     public class vThirdPersonController : vThirdPersonAnimator
     {
         public float Health = 100f;
+        public Button sprintBtn;
 
         protected virtual void Start()
         {
@@ -41,6 +43,16 @@ namespace Invector.CharacterController
             Debug.Log(string.Format("DoDamage. {0} - {1} = {2}", Health, damage, Health - damage));
 
             Health -= damage;
+        }
+
+        public void SprintButtonClick()
+        {
+            isSprinting = !isSprinting;
+
+            if (isSprinting)
+                sprintBtn.GetComponentInChildren<Text>().text = "Sprint ON";
+            else
+                sprintBtn.GetComponentInChildren<Text>().text = "Sprint OFF";
         }
 
         public virtual void Sprint(bool value)
