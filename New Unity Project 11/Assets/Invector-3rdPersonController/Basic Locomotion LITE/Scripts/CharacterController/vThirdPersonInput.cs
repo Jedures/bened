@@ -64,7 +64,7 @@ namespace Invector.CharacterController
         protected virtual void FixedUpdate()
         {
             cc.AirControl();
-          //  CameraInput();
+            CameraInput();
         }
 
         protected virtual void Update()
@@ -76,7 +76,7 @@ namespace Invector.CharacterController
         protected virtual void InputHandle()
         {
             ExitGameInput();
-         //   CameraInput();
+            CameraInput();
 
             if (!cc.lockMovement)
             {
@@ -90,7 +90,7 @@ namespace Invector.CharacterController
         #region Basic Locomotion Inputs      
 
         protected virtual void MoveCharacter()
-        {            
+        {
             cc.input.x = MoveJoystick.GetHorizontal();
             cc.input.y = MoveJoystick.GetVertical();
 
